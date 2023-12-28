@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Harborfreight Test Regression Suite" thread-count="1"
+	parallel="tests" verbose="4">
+
+	<listeners>
+		<listener
+			class-name="com.qa.HFT.listeners.ExtentReportListener" />
+		<listener
+			class-name="com.qa.HFT.listeners.TestAllureListener" />
+	</listeners>
+
+	<test name="Login Page Test">
+
+		<classes>
+			<class name="com.qa.HFT.tests.LoginPageTest">
+				<methods>
+					<include name="loginPageTitleTest" />
+					<include name="loginPageURLTest" />
+					<include name="forgotPwdLinkExistTest" />
+					<include name="loginTest" />
+				</methods>
+			</class>
+		</classes>
+
+	</test>
+	<test name="Account Page Test">
+
+		<classes>
+			<class name="com.qa.HFT.tests.AccountsPageTest">
+			</class>
+		</classes>
+
+	</test>
+	<test name="Registration Page Test">
+
+		<classes>
+			<class name="com.qa.HFT.tests.RegPageTest">
+			</class>
+		</classes>
+
+	</test>
+	
+
+</suite>
