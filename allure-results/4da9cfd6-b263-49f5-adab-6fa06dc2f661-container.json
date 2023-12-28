@@ -1,0 +1,1 @@
+{"uuid":"4da9cfd6-b263-49f5-adab-6fa06dc2f661","name":"com.qa.HFT.tests.RegPageTest","children":["b4dcf4f9-007e-47e4-903c-ca2a89a2692c"],"befores":[{"name":"regPageSetup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1703788228821,"stop":1703788230033}],"afters":[],"links":[],"start":1703788221180,"stop":1703788240766}
